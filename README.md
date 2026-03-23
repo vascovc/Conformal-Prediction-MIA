@@ -1,6 +1,10 @@
 # Custom Conformal Prediction with MIA
 
-This project is complementary to the paper *Enhancing Conformal Prediction Efficiency via Multiscale Impurity Analysis: A Complexity-Aware Non-Conformity Function* and implements a novel method for conformal prediction called **Multiscale Impurity Analysis (MIA)**. It can be used for both classification and regression tasks to generate statistically rigorous prediction sets or intervals.
+This project is complementary to the paper
+
+*Enhancing Conformal Prediction Efficiency via Multiscale Impurity Analysis: A Complexity-Aware Non-Conformity Function* 
+
+and implements a novel method for conformal prediction called **Multiscale Impurity Analysis (MIA)**. It can be used for both classification and regression tasks to generate statistically rigorous prediction sets or intervals.
 
 The core idea of MIA is to adapt the conformal prediction procedure to the local complexity of the data. Regions of the feature space with high complexity (i.e., where the label is hard to predict) will produce larger prediction sets (for classification) or wider prediction intervals (for regression).
 
